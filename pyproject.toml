@@ -1,0 +1,16 @@
+[project]
+name = "PriceAuto"
+version = "0.1.0"
+description = "Prédiction du prix des voitures d'occasion pour connaître les principales voitures dont le prix affiché est inférieur à ce qu'elles valent réellement"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bs4>=0.0.2",
+    "numpy>=2.2.2",
+    "packages>=0.1.1",
+    "pandas>=2.2.3",
+    "polars>=1.20.0",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "streamlit>=1.41.1",
+]
