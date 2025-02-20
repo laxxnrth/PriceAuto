@@ -6,7 +6,7 @@ L'objectif est de prédire les prix des voitures d'occasion selon plusieurs cara
 
 ## Scraping (lib_scraping.py)
 
-Pour récolter nos données sur les voitures, on utilise la méthode de Web Scraping, une technique d'extraction automatique des données issues de sites internet. On se base sur le site de l'[Autosphère]{https://www.autosphere.fr/}, premier distributeur d'automobiles de France.
+Pour récolter nos données sur les voitures, on utilise la méthode de Web Scraping, une technique d'extraction automatique des données issues de sites internet. On se base sur le site de l'[Autosphère](https://www.autosphere.fr/), premier distributeur d'automobiles de France.
 
 Plus précisément, on va s'intéresser aux voitures d'occasion :
 - Scraping des données contenues dans l'onglet *Occasion* à l'aide des packages `requests` et `bs4`.
